@@ -1,0 +1,29 @@
+{
+  "name": "Polycleaner Web",
+  "description": "Makes your reporting process more productive and efficient by streamlining the process. Created by XT7!",
+  "version": "0.0.0.1",
+  "author": "XT7",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://polytoria.com/users/global"],
+      "js": ["Scripts/betterusersearch.js"],
+      "world": "MAIN"
+    }
+  ],
+   "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://polytoria.com/*",
+    "*://api.polytoria.com/*"
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
