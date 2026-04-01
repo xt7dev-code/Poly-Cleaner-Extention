@@ -1,7 +1,7 @@
 {
   "name": "Polycleaner Web",
   "description": "Makes your reporting process more productive and efficient by streamlining the process. Created by XT7!",
-  "version": "A.0.0.0",
+  "version": "0.0.0.1",
   "author": "XT7",
   "manifest_version": 3,
   "content_scripts": [
